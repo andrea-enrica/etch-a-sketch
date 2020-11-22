@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Tangerine&display=swap');
 h1{font-size: 90px;}
 h2{font-size: 40px;}
-.rainbow-button{background-image: url(/home/enrica/Documents/work-space/the_odin_project/etch-a-sketch/media/rainbow.png);}
-.black-button{background-image: url(/home/enrica/Documents/work-space/the_odin_project/etch-a-sketch/media/black.png);}
-.grey-button{background-image: url(/home/enrica/Documents/work-space/the_odin_project/etch-a-sketch/media/grey.png);}
-.erase-button{background-image: url(/home/enrica/Documents/work-space/the_odin_project/etch-a-sketch/media/black.png);filter: invert(100%);}
+.rainbow-button{background-image: url(media/rainbow.png);}
+.black-button{background-image: url(media/black.png);}
+.grey-button{background-image: url(media/grey.png);}
+.erase-button{background-image: url(media/black.png);filter: invert(100%);}
 
 body{
-    background-image: url(/home/enrica/Documents/work-space/the_odin_project/etch-a-sketch/media/background.jpg);
+    background-image: url(media/background.jpg);
     display: flex;
     flex-direction: column;
     justify-content: center;
