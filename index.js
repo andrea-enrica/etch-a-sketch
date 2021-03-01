@@ -1,5 +1,5 @@
 const grid = document.querySelector('#grid');
-color='black';
+let color='black';
 createGrid(16);
 //buttons
 const slider=document.getElementById('size-range');
@@ -86,7 +86,7 @@ function createGrid(value) {
     grid.style.setProperty('--grid-rows', value);
     grid.style.setProperty('--grid-columns', value);
     let gridArea= value*value;
-    for (i=0; i<gridArea; i++) {
+    for (let i=0; i<gridArea; i++) {
         let gridItem = document.createElement('div');
         grid.appendChild(gridItem).setAttribute('id', 'gridItem');
     }
