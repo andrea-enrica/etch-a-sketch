@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset='utf-8'>
+  <link rel="stylesheet" href="style.css">
+  <title>Etch-a-Sketch</title>
+</head>
+<body>
+  <h1>Paint-a-Sketch</h1>
+  <h2>Choose you brush...</h2>
+  <div class="buttons">
+    <button id="colorButton" class="black-button bouncy" type="button"></button>
+    <button id="colorButton" class="rainbow-button bouncy" type="button" style="animation-delay:0.07s"></button>
+    <button id="colorButton" class="grey-button bouncy" type="button" style="animation-delay:0.14s"></button>
+    <button id="colorButton" class="erase-button bouncy" type="button" style="animation-delay:0.21s"></button>
+  </div>
+    <div class="content">
+      <div id="grid"></div>
+    </div>
+  <div class="reset-options">
+    <button class="reset-button" type="button">Reset</button>
+    <div class="slide-range">
+      <p class="grid-size">Grid size</p>
+      <input type="range" min="1" max="100" value="20" class="slider" id="size-range">
+    </div>
+  </div>
+  <p>This project is part of
+    <a href="https://www.theodinproject.com">The Odin Project Curriculum</a>
+  </p>
+</body>
+<script src='index.js'></script>
+</head> 
+</html>
